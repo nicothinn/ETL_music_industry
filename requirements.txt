@@ -1,0 +1,34 @@
+# Airflow & Orchestration
+apache-airflow==2.6.3
+apache-airflow-providers-postgres
+apache-airflow-providers-google
+
+# Data Processing
+pandas
+polars
+numpy
+
+# API Requests
+requests
+
+# Database Connection
+sqlalchemy
+psycopg2-binary
+
+# Data Visualization
+matplotlib
+seaborn
+
+# Google Drive API (for storing CSV)
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
+PyDrive
+requests
+
+ipykernel
+# For Jupyter Notebook support
+jupyterlab
+pendulum==2.1.2
+python-decouple

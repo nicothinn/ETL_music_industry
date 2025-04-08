@@ -1,0 +1,8 @@
+.env
+venv/
+__pycache__/
+*.pyc
+venv_airflow/
+airflow_310/
+src - copia/
+
