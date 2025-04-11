@@ -1,9 +1,9 @@
 import polars as pl
 import os
 
-DATA_PROCESSED = "../data/processed"
+DATA_PROCESSED = "/data/processed"
 
-def merge_datasets():
+def merge_datasets(**kwargs):
     df_spotify = pl.read_csv(f"{DATA_PROCESSED}/spotify_transformed.csv")
     df_grammys = pl.read_csv(f"{DATA_PROCESSED}/grammys_transformed.csv")
     df_billboard = pl.read_csv(f"{DATA_PROCESSED}/billboard_transformed.csv")
@@ -16,7 +16,7 @@ def merge_datasets():
         (pl.col("song_name") + "|" + pl.col("artist")).alias("merge_key")
     ]).sort("popularity", descending=True)
 
-    df_spotify = df_spotify.group_by("merge_key").agg([
+    df_spotify = df_spotify.groupby("merge_key").agg([
         pl.col("song_name").first(),
         pl.col("artist").first(),
         pl.col("track_genre").unique().alias("track_genres"),
@@ -35,7 +35,7 @@ def merge_datasets():
     ]).drop("track_genres")
 
     df_grammys = df_grammys.sort("year", descending=True)
-    df_grammys = df_grammys.group_by("song_name").agg([
+    df_grammys = df_grammys.groupby("song_name").agg([
         pl.col("year").first(),
         pl.col("category").first(),
         pl.col("published_at").first()
@@ -45,7 +45,7 @@ def merge_datasets():
         (pl.col("song_name") + "|" + pl.col("artist")).alias("merge_key")
     ])
 
-    df_billboard_grouped = df_billboard.group_by("merge_key").agg([
+    df_billboard_grouped = df_billboard.groupby("merge_key").agg([
         pl.col("date").min().alias("first_chart_date"),
         pl.col("rank").min().alias("billboard_peak"),
         pl.col("weeks_on_chart").sum().alias("total_weeks_on_chart"),
@@ -54,7 +54,6 @@ def merge_datasets():
 
     merged = df_spotify.join(df_grammys, on="song_name", how="left")
     merged = merged.join(df_billboard_grouped, on="merge_key", how="left")
-
     merged = merged.drop("merge_key")
 
     columns_to_drop = [
@@ -75,6 +74,4 @@ def merge_datasets():
 
     merged.write_csv(f"{DATA_PROCESSED}/final_dataset.csv")
 
-_all = [
-    "merge_datasets"
-]
+__all__ = ["merge_datasets"]

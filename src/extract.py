@@ -5,12 +5,12 @@ import pandas as pd
 import psycopg2
 from dotenv import load_dotenv
 
-def extract_spotify():
-    df = pl.read_csv("../data/raw/spotify_dataset.csv")
-    df.write_csv("../data/raw/spotify_dataset2.csv")
+def extract_spotify(**kwargs):
+    df = pl.read_csv("/data/raw/spotify_dataset.csv")
+    df.write_csv("/data/raw/spotify_dataset2.csv")
 
-def extract_grammys():
-    load_dotenv()
+def extract_grammys(**kwargs):
+    load_dotenv(dotenv_path="/opt/airflow/.env")
 
     dbname = os.getenv("DB_NAME")
     user = os.getenv("DB_USER")
@@ -34,9 +34,9 @@ def extract_grammys():
     conn.close()
 
     df = pl.DataFrame(rows, schema=columns)
-    df.write_csv("../data/raw/grammy_awards_full.csv")
+    df.write_csv("/data/raw/grammy_awards_full.csv")
 
-def extract_billboard():
+def extract_billboard(**kwargs):
     url = "https://raw.githubusercontent.com/mhollingshead/billboard-hot-100/main/all.json"
     response = requests.get(url)
 
@@ -58,7 +58,7 @@ def extract_billboard():
                 })
 
         df = pd.DataFrame(all_data)
-        df.to_csv("../data/raw/billboard_full_chart_data.csv", index=False)
+        df.to_csv("/data/raw/billboard_full_chart_data.csv", index=False)
         print("Billboard data extracted successfully!")
 
     else:

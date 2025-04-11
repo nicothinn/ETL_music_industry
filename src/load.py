@@ -4,11 +4,11 @@ from dotenv import load_dotenv
 from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
 
-DATA_PROCESSED = "../data/processed"
+DATA_PROCESSED = "/data/processed"
 CSV_FILENAME = "final_dataset.csv"
 CSV_FILE_PATH = f"{DATA_PROCESSED}/{CSV_FILENAME}"
 
-def load_and_store_final_dataset():
+def load_and_store_final_dataset(**kwargs):
     load_dotenv()
 
     dbname   = os.getenv("DB_NAME")
@@ -26,7 +26,6 @@ def load_and_store_final_dataset():
     )
     cur = conn.cursor()
 
-    # Crear tabla con tipos y orden correcto
     create_table_query = """
     CREATE TABLE IF NOT EXISTS public.music_dataset (
         song_name TEXT,
@@ -50,7 +49,6 @@ def load_and_store_final_dataset():
     cur.execute(create_table_query)
     conn.commit()
 
-    # Cargar datos desde el CSV
     copy_query = """
     COPY public.music_dataset (
         song_name, artist, popularity, explicit, tempo, valence, energy,
@@ -67,17 +65,14 @@ def load_and_store_final_dataset():
     conn.close()
     print("Final dataset loaded into PostgreSQL.")
 
-    # Subir a Google Drive
     gauth = GoogleAuth()
+    gauth.LoadClientConfigFile("/client_secrets.json")
     gauth.LocalWebserverAuth()
     drive = GoogleDrive(gauth)
 
     file_to_upload = drive.CreateFile({'title': CSV_FILENAME})
     file_to_upload.SetContentFile(CSV_FILE_PATH)
     file_to_upload.Upload()
-
     print("Final dataset uploaded to Google Drive.")
 
-_all = [
-    "load_and_store_final_dataset"
-]
+__all__ = ["load_and_store_final_dataset"]
