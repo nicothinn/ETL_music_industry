@@ -1,0 +1,90 @@
+song_name,artist,popularity,explicit,tempo,valence,energy,danceability,acousticness,duration_minutes,track_genre,year,category,first_chart_date,billboard_peak,total_weeks_on_chart
+just the way you are,billy joel,72,false,139.148,0.513,0.453,0.589,0.703,4.842883333333334,"songwriter, piano, singer-songwriter",1978,song of the year,1977-11-12,3,378
+lonely boy,the black keys,73,false,166.3,0.607,0.872,0.356,0.00417,3.2275500000000004,"garage, blues, punk, punk-rock",2012,best rock song,2011-11-12,64,210
+carry on,xxxtentacion,75,true,147.899,0.383,0.197,0.735,0.768,2.162,emo,1997,best dance recording,2017-09-16,95,1
+truth hurts,lizzo,1,true,158.088,0.407,0.622,0.715,0.11,2.88875,hip-hop,2019,song of the year,2019-05-18,1,903
+youre still the one,shania twain,78,false,133.822,0.634,0.494,0.585,0.363,3.5366666666666666,country,1998,best country song,1998-02-14,2,903
+tears in heaven,eric clapton,66,false,153.744,0.312,0.242,0.498,0.835,4.529333333333334,blues,1992,record of the year,1992-02-08,2,351
+you make me feel like dancing,leo sayer,60,false,96.071,0.705,0.731,0.734,0.0784,3.6884333333333337,disco,1977,best rhythm blues song,1976-10-23,1,231
+good life,onerepublic,74,true,94.988,0.645,0.69,0.634,0.0771,4.2217666666666664,"rock, piano",2007,best rap song,2009-11-28,8,630
+after the love has gone,earth wind fire,67,false,131.675,0.391,0.443,0.424,0.532,4.634,disco,1979,best rhythm blues song,1979-07-07,2,153
+lean on me,bill withers,70,false,75.143,0.426,0.22,0.619,0.782,4.3139,soul,1987,best rhythm blues song,1972-04-22,1,190
+layla,derek the dominos,74,false,115.669,0.497,0.902,0.404,0.577,7.064,"singer-songwriter, folk, songwriter, country, psych-rock, blues, british, hard-rock",1992,best rock song,1971-03-27,10,325
+sailing,christopher cross,71,false,149.994,0.178,0.382,0.469,0.364,4.2691,disco,1980,song of the year,1980-06-14,1,231
+shine,collective soul,70,false,150.132,0.355,0.423,0.543,0.295,5.100666666666667,grunge,2010,best rb song,1994-05-07,11,435
+lets twist again,chubby checker,68,false,167.832,0.907,0.709,0.604,0.0987,2.2893333333333334,"rockabilly, r-n-b, rock-n-roll",1961,best rock roll recording,1961-06-19,8,276
+hello,adele,74,false,78.991,0.288,0.43,0.578,0.33,4.925033333333333,"soul, british",2016,song of the year,2015-11-14,1,351
+daughters,john mayer,67,false,124.893,0.503,0.413,0.674,0.836,3.9651,"songwriter, singer-songwriter",2004,song of the year,2004-11-06,19,276
+aint it fun,paramore,75,false,104.031,0.673,0.893,0.61,0.154,4.942,"punk, emo",2014,best rock song,2014-03-15,10,300
+run,collective soul,53,false,95.993,0.637,0.754,0.572,0.0271,4.557766666666667,grunge,2017,best rock song,1999-03-13,76,28
+downtown,petula clark,20,false,118.359,0.559,0.54,0.495,0.718,3.0844333333333336,rock-n-roll,1964,best rock roll recording,1964-12-19,1,120
+runaway train,soul asylum,56,false,117.422,0.53,0.714,0.616,0.00481,4.434433333333334,grunge,1993,best rock song,1993-06-12,5,351
+we are young,glee cast,50,false,91.977,0.523,0.554,0.378,0.0504,4.162883333333333,club,2012,song of the year,2011-12-24,12,6
+good life,inner city,58,false,121.306,0.952,0.783,0.716,0.172,4.07955,detroit-techno,2007,best rap song,1989-03-04,73,66
+killing me softly with his song,roberta flack,72,false,121.948,0.33,0.381,0.476,0.727,4.782,"disco, soul",1973,record of the year,1973-01-27,1,136
+behind closed doors,charlie rich,55,false,85.196,0.589,0.329,0.492,0.961,2.9111000000000002,rockabilly,1973,best country song,1973-04-28,15,190
+bad,xxxtentacion,72,false,143.983,0.374,0.492,0.78,0.0643,1.57075,emo,1987,best engineered recording nonclassical,2018-11-24,16,66
+stay,florida georgia line,2,false,141.979,0.556,0.931,0.493,0.0838,3.3404333333333334,country,2008,best country song,2013-11-02,28,210
+bad guy,billie eilish,84,false,135.128,0.562,0.425,0.701,0.328,3.2347833333333336,"pop, electro",2019,record of the year,2019-04-13,1,1225
+the lucky one,faith hill,0,false,119.991,0.684,0.866,0.674,0.0739,3.6071,country,2001,best country song,2006-04-08,69,45
+mack the knife,bobby darin,62,false,82.755,0.464,0.529,0.549,0.76,3.072216666666667,rockabilly,1960,best vocal performance single record or track female,1959-08-24,1,351
+poker face,lady gaga,3,false,119.006,0.808,0.818,0.851,0.112,3.9817666666666667,dance,2009,best dance recording,2009-01-03,1,820
+rehab,amy winehouse,73,false,71.815,0.777,0.558,0.407,0.0541,3.5824333333333334,british,2007,record of the year,2007-03-31,9,210
+scar tissue,red hot chili peppers,79,false,88.969,0.547,0.717,0.595,0.0779,3.5984333333333334,"funk, metal, alt-rock, alternative",1999,best rock song,1999-06-05,9,435
+god only knows,for king country,65,false,143.839,0.263,0.417,0.597,0.395,3.8293333333333335,"world-music, alt-rock",2019,best contemporary christian music performancesong,2019-09-14,94,1
+with arms wide open,creed,56,false,138.929,0.126,0.533,0.415,0.0037,4.640666666666667,"grunge, metal",2000,best rock song,2000-05-13,1,1128
+humble,kendrick lamar,84,true,150.011,0.421,0.621,0.908,0.000282,2.95,hip-hop,2017,best rap song,2017-04-22,1,741
+breezin,george benson,60,false,81.081,0.964,0.752,0.682,0.476,5.69555,guitar,1976,best engineered recording nonclassical,1976-10-16,63,21
+thriller,michael jackson,70,false,118.427,0.72,0.887,0.764,0.0816,5.96755,soul,1983,best engineered recording nonclassical,1984-02-11,4,300
+dani california,red hot chili peppers,78,false,96.184,0.73,0.913,0.556,0.0193,4.7026666666666666,"alt-rock, metal, alternative, funk",2006,best rock song,2006-04-22,6,351
+whats love got to do with it,tina turner,71,false,97.84,0.792,0.406,0.851,0.219,3.7813333333333334,disco,1984,song of the year,1984-05-19,1,406
+someone you loved,lewis capaldi,87,false,109.891,0.446,0.405,0.501,0.751,3.036,pop,2019,song of the year,2019-05-25,1,1485
+the gambler,kenny rogers,75,false,87.04,0.86,0.501,0.671,0.342,3.5813333333333337,country,1978,best country song,1978-11-04,16,253
+stay,bts,67,false,125.904,0.341,0.693,0.582,0.114,3.4133333333333336,k-pop,2008,best country song,2020-12-05,22,1
+home,blake shelton,2,false,127.814,0.288,0.443,0.579,0.479,3.8408833333333336,country,2002,best recording package,2008-04-26,41,210
+dont know why,norah jones,76,false,88.609,0.635,0.219,0.745,0.851,3.1041833333333333,"jazz, j-pop",2002,song of the year,2002-09-28,30,496
+ill make love to you,boyz ii men,67,false,142.447,0.202,0.49,0.559,0.103,3.946,r-n-b,1994,best rhythm blues song,1994-08-13,1,561
+aint no sunshine,bill withers,79,false,78.169,0.515,0.415,0.527,0.457,2.0848833333333334,"soul, funk",1971,best rhythm blues song,1971-07-17,3,136
+lover,taylor swift,85,false,68.534,0.453,0.543,0.359,0.492,3.6884333333333337,pop,2019,song of the year,2019-08-31,10,253
+home,daughtry,54,false,143.981,0.338,0.85,0.442,0.002,4.2611,"grunge, metal",2002,best recording package,2007-03-17,5,703
+boulevard of broken dreams,green day,77,true,167.06,0.474,0.682,0.496,0.00552,4.372216666666667,punk,2005,record of the year,2004-11-27,2,666
+sittin on the dock of the bay,otis redding,76,false,103.621,0.535,0.367,0.769,0.684,2.72925,"soul, blues",1968,best rhythm blues song,1968-01-27,1,136
+gods plan,drake,84,true,77.169,0.357,0.449,0.754,0.0332,3.316216666666667,hip-hop,2018,best rap song,2018-02-03,1,666
+seven nation army,the white stripes,84,false,123.596,0.278,0.446,0.743,0.0039,3.8684333333333334,"alt-rock, rock, blues, alternative",2003,best rock song,2003-05-24,76,210
+speechless,dan shay,72,false,135.929,0.386,0.438,0.616,0.356,3.5564333333333336,country,2019,best country song,2018-09-22,24,820
+on the road again,canned heat,51,false,129.524,0.205,0.156,0.496,0.777,3.4388833333333335,psych-rock,1980,best country song,1968-08-10,16,66
+empire state of mind,glee cast,47,false,173.566,0.717,0.883,0.508,0.0617,4.622433333333333,club,2010,best rap song,2010-10-09,21,3
+i cant stop loving you,ray charles,63,false,79.397,0.377,0.279,0.31,0.815,4.268666666666667,"piano, blues",1962,best rhythm blues recording,1962-05-05,1,171
+superstition,stevie wonder,4,false,100.82,0.877,0.583,0.611,0.057,4.4622166666666665,"indie, funk, soul",1973,best rhythm blues song,1972-11-18,1,136
+skyfall,adele,78,false,75.881,0.0789,0.552,0.346,0.417,4.774666666666667,"soul, british",2013,best song written for visual media,2012-10-20,8,210
+always on my mind,pet shop boys,71,false,124.874,0.726,0.783,0.533,0.0116,3.9151000000000002,synth-pop,1982,best country song,1988-03-26,4,120
+just the way you are,bruno mars,82,false,109.021,0.424,0.841,0.635,0.0134,3.6789,dance,1978,song of the year,2010-08-07,1,1176
+i will survive,gloria gaynor,69,false,116.935,0.802,0.775,0.77,0.0227,4.9351,disco,1979,best disco recording,1978-12-16,1,378
+walk,foo fighters,70,false,137.107,0.194,0.865,0.234,0.0000362,4.266,"metal, grunge",2011,best rock song,2011-07-23,83,91
+thats what i like,bruno mars,83,false,134.066,0.86,0.56,0.853,0.013,3.4448833333333333,dance,2017,best rb song,2016-12-10,1,1329
+kiss from a rose,seal,74,false,131.745,0.224,0.533,0.584,0.684,4.8071,"british, soul",1995,song of the year,1995-06-24,1,666
+what a fool believes,the doobie brothers,0,false,120.656,0.977,0.625,0.646,0.275,3.6595500000000003,"folk, blues, country, songwriter, hard-rock, singer-songwriter",1979,song of the year,1979-01-20,1,210
+hello,lionel richie,68,false,61.648,0.0606,0.222,0.424,0.646,4.11555,disco,2016,song of the year,1984-02-25,1,300
+toxic,glee cast,46,false,132.582,0.485,0.74,0.606,0.131,3.4068833333333335,club,2004,best dance recording,2010-10-16,16,1
+sailing,rod stewart,2,false,128.791,0.189,0.375,0.43,0.374,4.632666666666667,rock,1980,song of the year,1975-10-18,58,28
+you say,lauren daigle,75,false,147.873,0.0797,0.632,0.494,0.682,4.578216666666667,"alt-rock, alternative",2018,best contemporary christian music performancesong,2018-07-28,29,946
+run,leona lewis,62,false,142.365,0.0923,0.462,0.285,0.428,5.245333333333334,british,2017,best rock song,2009-01-03,81,1
+7 rings,ariana grande,84,true,140.048,0.327,0.317,0.778,0.592,2.9771,"pop, dance",2019,record of the year,2019-02-02,1,561
+before he cheats,carrie underwood,78,false,147.905,0.29,0.749,0.519,0.271,3.3324333333333334,country,2007,best country song,2006-09-16,8,2080
+9 to 5,dolly parton,77,false,105.39,0.813,0.783,0.554,0.416,2.7077666666666667,country,1981,best country song,1980-11-29,1,351
+no one,alicia keys,78,false,90.04,0.167,0.549,0.644,0.0209,4.230216666666667,soul,2007,best rb song,2007-09-22,1,780
+every breath you take,the police,86,false,117.401,0.74,0.452,0.82,0.543,4.232,rock,1983,song of the year,1983-06-04,1,253
+lonely boy,andrew gold,56,false,123.724,0.866,0.598,0.588,0.0386,4.414883333333334,power-pop,2012,best rock song,1977-03-19,7,231
+if you dont know me by now,simply red,0,false,93.893,0.192,0.307,0.654,0.514,3.4337666666666666,"r-n-b, british, soul",1989,best rhythm blues song,1989-05-06,1,253
+home,phillip phillips,60,false,121.04,0.322,0.826,0.606,0.0256,3.5028833333333336,folk,2002,best recording package,2012-06-09,6,820
+how far ill go,aulii cravalho,49,false,83.72,0.108,0.307,0.571,0.649,2.7231,"disney, show-tunes",2017,best song written for visual media,2016-12-17,41,210
+god only knows,the beach boys,50,false,115.876,0.334,0.469,0.433,0.156,2.9297666666666666,psych-rock,2019,best contemporary christian music performancesong,1966-08-13,39,36
+i feel for you,chaka khan,0,false,124.881,0.924,0.925,0.794,0.0118,3.648,"soul, funk, disco",1984,best rhythm blues song,1984-09-08,3,351
+girl crush,little big town,70,false,173.788,0.355,0.225,0.5,0.842,3.222,country,2015,best country song,2015-02-21,18,300
+revenge,xxxtentacion,87,true,139.999,0.18,0.251,0.746,0.782,2.0004333333333335,emo,1967,best comedy recording,2017-09-16,77,3
+walk,kodak black,0,true,130.04,0.17,0.512,0.817,0.037,2.767316666666667,hip-hop,2011,best rock song,2022-10-22,100,1
+im ready,fats domino,32,false,85.845,0.971,0.934,0.652,0.629,2.052216666666667,"blues, rockabilly, rock-n-roll, piano",1978,best ethnic or traditional recording,1959-05-11,16,66
+just the way you are,glee cast,43,false,108.985,0.366,0.719,0.606,0.00864,3.60155,club,1978,song of the year,2010-12-11,40,1
+rolling in the deep,adele,81,true,104.948,0.507,0.769,0.73,0.138,3.80155,"soul, british",2011,song of the year,2010-12-25,1,2145
+need you now,glee cast,45,false,108.037,0.248,0.674,0.55,0.0881,3.6235500000000003,club,2010,record of the year,2011-02-19,62,3
+bless the broken road,rascal flatts,36,false,135.962,0.362,0.448,0.588,0.668,3.778216666666667,country,2005,best country song,2004-12-18,29,210
