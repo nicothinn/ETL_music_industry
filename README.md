@@ -43,7 +43,7 @@ This project implements an end-to-end ETL pipeline to integrate and analyze musi
 
 ```plaintext
 ├── dags                   # Airflow DAGs (workflow definitions)
-├── data                   # Raw and processed data storage
+├── data                   # Raw and processed data storageD
 │   ├── raw                # Raw data files (Spotify CSV, Grammy CSV, Billboard JSON)
 │   └── processed          # Transformed data and the final merged dataset
 ├── src                    # ETL source code
@@ -59,7 +59,7 @@ This project implements an end-to-end ETL pipeline to integrate and analyze musi
 ├── Dockerfile             # Custom Dockerfile for the Airflow image
 ├── .env                   # Environment variables (DB credentials and others)
 └── client_secrets.json    # Google Drive API credentials (OAuth client)
-
+```
 ## 1. Requirements and Technologies
 
 ### Prerequisites
@@ -99,7 +99,7 @@ This project implements an end-to-end ETL pipeline to integrate and analyze musi
 ├── Dockerfile             # Custom Dockerfile for the Airflow image
 ├── .env                   # Environment variables (DB credentials and others)
 └── client_secrets.json    # Google Drive API credentials (OAuth client)
-
+```
 ## 3. ETL Pipeline Components
 
 ### Extraction Phase
@@ -178,20 +178,45 @@ DB_NAME=your_database_name DB_USER=your_database_user DB_PASSWORD=your_database_
 1. **Create a Virtual Environment:**
    ```bash
    python3 -m venv venv
-
 2.### Activate the Virtual Environment
 
 **On Linux/Mac:**
 ```bash
 source venv/bin/activate
+```
 
 **On Windows:**
 ```bash
 venv\Scripts\activate
+```
 
 **Install Python Dependencies**
 ```bash
 pip install -r requirements.txt
+```
+## Deploying the Project with Docker Compose
+
+Ensure Docker and Docker Compose are installed.
+
+---
+
+###  Build and Start the Containers
+
+From the project root directory, run:
+
+```bash
+docker-compose up --build
+```
+### Access the Airflow UI
+Open your browser and navigate to:
+```bash
+http://localhost:8080
+```
+Use the admin credentials created during initialization:
+
+Username: airflow
+Password: airflow
+
 
 ## 8. Conclusions
 
