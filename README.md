@@ -60,46 +60,11 @@ This project implements an end-to-end ETL pipeline to integrate and analyze musi
 ├── .env                   # Environment variables (DB credentials and others)
 └── client_secrets.json    # Google Drive API credentials (OAuth client)
 ```
-## 1. Requirements and Technologies
-
-### Prerequisites
-- **Python 3.8 or higher**
-- **Docker and Docker Compose**
-- **Git**
-- **A Virtual Environment** (recommended to use `venv` or `virtualenv`)
-
-### Technologies Used
-- **Python:** Primary language for ETL, data manipulation, and dashboard development.
-- **Polars, Pandas, NumPy:** Data processing and numerical computations.
-- **psycopg2, SQLAlchemy:** PostgreSQL database interaction.
-- **Plotly and Dash:** For interactive visualizations and dashboard creation.
+ creation.
 - **Apache Airflow:** To orchestrate the ETL pipeline.
 - **Docker Compose:** For container management (Airflow, PostgreSQL, Redis).
 - **PyDrive:** For uploading the final dataset to Google Drive via the Google Drive API.
 
----
-
-## 2. Project Structure
-
-```plaintext
-├── dags                   # Airflow DAGs (workflow definitions)
-├── data                   # Raw and processed data storage
-│   ├── raw                # Raw data files (Spotify CSV, Grammy CSV, Billboard JSON)
-│   └── processed          # Transformed data and the final merged dataset
-├── src                    # ETL source code
-│   ├── extract.py         # Extraction functions for each data source
-│   ├── transform.py       # Transformation functions for cleaning and normalization
-│   ├── merge_data.py      # Function to merge datasets into one final CSV
-│   └── load.py            # Functions to load data into PostgreSQL and upload to Google Drive
-├── config                 # Additional configuration files
-├── plugins                # Airflow plugins (if applicable)
-├── logs                   # Airflow logs
-├── requirements.txt       # Python dependencies
-├── docker-compose.yml     # Docker Compose configuration for Airflow and related services
-├── Dockerfile             # Custom Dockerfile for the Airflow image
-├── .env                   # Environment variables (DB credentials and others)
-└── client_secrets.json    # Google Drive API credentials (OAuth client)
-```
 ## 3. ETL Pipeline Components
 
 ### Extraction Phase
